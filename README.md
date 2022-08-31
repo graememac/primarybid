@@ -6,7 +6,7 @@ This app has been deployed to: http://primarybid.s3-website-us-east-1.amazonaws.
 
 When builing this little project I made the following decisions:
 
-- To use the default HTML text field validation for the username and password fields on the sing in form. This essentially checks that these fields are not blank. I could have used a form library but that seemed a bit much for this simple app.
+- To use the default HTML text field validation for the username and password fields on the sign in form. This essentially checks that these fields are not blank. I could have used a form library but that seemed a bit much for this simple app.
 
 - The auth API (https://fakestoreapi.com/auth/login) was just returning a 524 status code for me, even when I tried sending valid input. I assume there may be some issue server side with this API. So I commented out my code which would deal with a real API response and just set a fake token instead.
 
